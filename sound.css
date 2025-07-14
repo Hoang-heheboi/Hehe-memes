@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: white;
+    zoom: 2;
 }
 #myTitle {
     text-align: center;
@@ -31,11 +32,11 @@ a {
     text-decoration: none;
 }
 .platform {
-    width: 100px;
-    height: 120px;
+    width: 80px;
+    height: 100px;
     background-color: lightgray;
     box-shadow: #222 0px 0px 10px;
-    border-radius: 18px;
+    border-radius: 8px;
     text-align: center;
     top: 20px;
     position: relative;
@@ -54,7 +55,7 @@ a {
 }
 #GetOutw {
     color: gray;
-    top: -50px;
+    top: 20px;
 }
 .platform button:hover {
     background: darkred;
