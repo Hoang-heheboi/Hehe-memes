@@ -57,8 +57,23 @@ border-radius: 10px;
 }
 
 #Version {
+    color: gray;
     text-align: center;
-    max-width: 100vw;
-    box-sizing: border-box;
-    padding: auto;
-    margin: auto;}
+}
+#favorites {
+    display: block;
+    margin: 18px auto 0 auto;
+    background-color: red;
+    color: white;
+    transition: background-color 0.2s;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px white;
+    font-size: 2em;
+}
+#favorites:hover {
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+
